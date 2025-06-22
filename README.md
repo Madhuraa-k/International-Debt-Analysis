@@ -23,16 +23,7 @@ The dataset is stored in a relational database (`international_debt`) for SQL an
 - **SQL**: For querying and analyzing the dataset to extract meaningful insights.
   - Environment: Jupyter Notebook with `ipython-sql` library or SQL Server Management Studio.
 - **Power BI**: For creating interactive visualizations and dashboards to present findings.
-- **Microsoft SQL Server**: For hosting the database (optional, depending on setup).
-- **Python** (optional): For data preprocessing or loading data into SQL.
 
-
-## Key Findings
-- The total global debt in the dataset is approximately $3.08 trillion USD.
-- The country with the highest debt is [Country Name] with [Amount] USD.
-- The debt indicator "PPG, Private Creditors (AMT, Current US$)" accounts for the largest share of debt, particularly for middle-income countries.
-- Middle-income countries are the most affected by debt, with Mexico having the highest cumulative debt from 1970 to 2019.
-- Debt trends show significant increases in certain regions over the study period.
 
 ## Setup Instructions
 ### Prerequisites
@@ -48,9 +39,9 @@ The dataset is stored in a relational database (`international_debt`) for SQL an
    ```
 
 2. **Set Up the Database**:
-   - Import the `international_debt.sql` file into your SQL database:
+   - Import the `DB.sql` file into your SQL database:
      ```bash
-     mysql -u your_username -p your_database_name < data/international_debt.sql
+     mysql -u your_username -p your_database_name < sql/DB.sql
      ```
    - Alternatively, use SQL Server Management Studio to restore the database.
 
@@ -64,4 +55,4 @@ The dataset is stored in a relational database (`international_debt`) for SQL an
    - Interact with the dashboard to explore visualizations.
 
 ## Visualizations
-Screenshot of the Power BI dashboard are available in the `power_bi/dashboard_screenshot` folder. 
+Screenshot of the Power BI dashboard are available in the `power_bi/dashboard_screenshot.png` . 
