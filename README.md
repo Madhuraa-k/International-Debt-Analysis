@@ -50,7 +50,7 @@ The dataset is stored in a relational database (`international_debt`) for SQL an
    - Execute the queries to reproduce the analysis.
 
 4. **Explore Power BI Dashboard**:
-   - Open `power_bi/Dashboard.pbix` in Power BI Desktop.
+   - Open `power_bi/dashboard.pbix` in Power BI Desktop.
    - Ensure the data source is connected (update the data source settings if needed).
    - Interact with the dashboard to explore visualizations.
 
